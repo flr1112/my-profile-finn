@@ -1,0 +1,145 @@
+
+body{ 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    text-align: center;
+    background-image: url(mercedes.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+.container{
+    margin: 24px auto;
+    width: 900px;
+}
+
+h1{ 
+    font-size: 45px;
+    font-family: 'Bungee Spice', cursive;
+    color: rgba(175, 0, 0, 0.9);
+}
+
+h2{
+    font-family: 'Bungee Spice', cursive;
+}
+
+.bio {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bio:hover{
+    font-weight: 700;
+}
+
+#profile-pic {
+    border-radius: 250px;
+   object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#secret-discount:hover{
+    font-size: 50px;
+    font-family: 'Nabla', cursive;
+}
+
+.card{
+    margin: 60px 0;
+    border-radius: 100px;
+    padding: 20px 30px;
+    background-color: rgba(245, 244, 244, 0.7);
+}
+
+.card:hover{
+    box-shadow: 10px 20px 20px #6D8DB3;
+}
+
+#card-social{
+    margin: 60px 0;
+    border-radius: 100px;
+    padding: 5px 30px;
+    background-color: rgba(245, 244, 244, 0.7);
+}
+
+#card-social:hover{
+    box-shadow: 10px 20px 20px #6D8DB3;
+}
+
+ul{ 
+    list-style: none;
+    padding: 0;
+}
+
+#car-button{ 
+    text-decoration: none;
+    transition: all 1s;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 300px;
+    display: inline-block;
+    margin: 4px;
+    background-color: rgba(245, 245, 220, 0.8);
+    color:rgba(0, 0, 0, 1)
+}
+
+#car-button:hover{
+    background-color: rgb(150, 0, 0);
+    font-size: 50px;
+    font-family: 'Nabla', cursive;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+
+.media-buttons{ 
+    color: rgb(174, 15, 15);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.education-card {
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.education-lists li {
+    padding: 10px 0;
+}
+
+.product-tables { 
+    display:flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 900px) {
+.container{
+    max-width: 600px;
+}
+.product-tables{
+    flex-direction: column;
+    gap: 0px;
+}
+}
+
+@media (max-width: 600px) {
+    .container{
+        max-width: 400px;
+    }
+    #profile-pic{
+        width: 200px;
+        height: 200px;
+    }
+    }
+
+   
